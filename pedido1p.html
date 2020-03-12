@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>PizzaHot</title>
+	
+	<style>
+@media screen and (min-width:640px) {
+	.bg-text {
+		transform: translate(-50%, -150%);
+	}
+}
+
+
+}
+@media screen and (max-width:1020px) {
+	.bg-text {
+		transform: translate( -50%, -50%);
+	}
+}
+
+
+body,
+html {
+	height: 100%;
+}
+* {
+	box-sizing: border-box;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+	background-color: rgb(0, 0, 0);
+	/* Fallback color */
+	
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/opacity/see-through */
+	
+	color: white;
+	font-weight: bold;
+	border: 3px solid #f1f1f1;
+	position: absolute;
+	left: 50%;
+	z-index: 2;
+	width: 80%;
+	padding: 20px;
+	text-align: center;
+}
+#fondo {
+	background-image: url("fondopizza.jpg");
+	filter: blur(10px);
+	-webkit-filter: blur(10px);
+	//background-position: center;
+	background-repeat: repeat-y;
+	background-size: cover;
+	z-index: -99;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+#cuadro {
+	border: 3px solid black;
+	color: red;
+	background-color: lightyellow;
+}
+	</style>
+
+</head>
+
+<body>
+
+<div id=fondo></div>
+
+<div class="bg-text">
+
+<div id=cuadro>
+	<div><h1>Pizzas Online<br>
+	I Love Pizza</h1></div>
+</div>
+	<h2>Promocion 1</h2>
+	<p>	1 Muzzarella.<br>
+		1 Bebida Coca-Cola.<br>
+		Costo: $ 7<br>
+		<a href="https://www.youtube.com/watch?v=FjAe4BTegho" target="_blank"><h2>Solicitar</a>
+	</p>
+	<h2>Promocion 2</h2>
+	<p> 2 Muzzarella.<br>
+		Costo: $ 10<br>
+		<a href="https://m.facebook.com/christian.lucerocorte" target="_blank"><h2>Solicitar</a>
+	</p>
+	<h2>Promocion 3</h2>
+	<p> 3 Muzzarella.<br>
+		Costo: $ 15<br>
+		<a href="https://www.youtube.com/watch?v=DR6ED6lvkb4" target="_blank"><h2>Solicitar</a>
+	</p>
+	<p>
+		<h2>Para saber como llegar hacer click en la siguiente imagen.
+		</h2>
+	</p>	
+
+	<p>
+		<a href="https://www.google.com/maps/dir//I+Love+Pizza,+Gualaceo/@-2.892648,-78.7776828,18z/data=!4m8!4m7!1m0!1m5!1m1!1s0x91cd05b9810b9c4b:0x71218f3c917787e2!2m2!1d-78.7775886!2d-2.8926481?hl=es"target="_blank"><img src="ilovepizza.jpg" width="55%">	</a>
+
+	</p>
+ </div>    
+</body>
+</html>
